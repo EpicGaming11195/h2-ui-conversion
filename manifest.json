@@ -1,9 +1,163 @@
 {
-	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "0.1.0",
-	"id": "YourPreferredAlias.AnIDForTheMod",
-	"name": "Test Mod",
-	"description": "A truly amazing mod",
-	"authors": ["Your Preferred Alias"],
-	"frameworkVersion": "2.25.1"
+    "$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
+	"version": "1.0.0",
+	"id": "EpicGaming11195.H2UI",
+	"name": "Hitman 2 UI Conversion",
+	"description": "(Some options may need to be selected again after updates) The second and final installment in my UI Conversion series, aiming to replicate Hitman 2's UI as closely as possible.",
+	"authors": [
+		"EpicGaming11195",
+		"Burn the Witch",
+        "Hichkas"
+	],
+	"frameworkVersion": "2.33.12",
+    "options": [
+        {
+			"name": "Off",
+			"tooltip": "Hitman WOA's default menu style.",
+			"image": "smf/menu_base.png",
+			"type": "select",
+			"group": "Menu Theme"
+		},
+        {
+			"name": "On",
+			"tooltip": "Hitman 2's menu style and colors. (Big ol' massive W.I.P. sign here, this is not even close to finished.)",
+			"image": "smf/menu_h2.png",
+			"type": "select",
+			"group": "Menu Theme",
+			"contentFolders": ["content/menu style"],
+			"enabledByDefault": true
+		},
+
+        
+        {
+			"name": "Off",
+			"tooltip": "Hitman WOA's default intro.",
+			"image": "smf/intro_woa.png",
+			"type": "select",
+			"group": "Intro Video"
+		},
+        {
+			"name": "On",
+			"tooltip": "Hitman 2's intro. (Has no sound at the moment)",
+			"image": "smf/intro_h2.png",
+			"type": "select",
+			"group": "Intro Video",
+			"contentFolders": ["content/intro"],
+			"enabledByDefault": true
+		},
+        
+
+        {
+			"name": "Off",
+			"tooltip": "Hitman WOA's default attraction screen.",
+			"image": "smf/as_base.png",
+			"type": "select",
+			"group": "Attraction Screen Background"
+		},
+        {
+			"name": "On",
+			"tooltip": "Hitman 2's attraction screen.",
+			"image": "smf/h2as.png",
+			"type": "select",
+			"group": "Attraction Screen Background",
+			"blobsFolders": ["content/attraction screen/blobs"],
+			"enabledByDefault": true
+		},
+
+
+        {
+			"name": "Off",
+			"tooltip": "Hitman WOA's default title screen logo.",
+			"image": "smf/v_l.png",
+			"type": "select",
+			"group": "Boot Logo"
+		},
+        {
+			"name": "On (Custom)",
+			"tooltip": "A custom Hitman 3 logo in the style of Hitman 2's logo.",
+			"image": "smf/logo_h2_custom.png",
+			"type": "select",
+			"group": "Boot Logo",
+            "contentFolders": ["content/at logos/h2_woa"],
+			"enabledByDefault": true
+		},
+        {
+			"name": "On (Hitman 2)",
+			"tooltip": "Hitman 2's title screen logo.",
+			"image": "smf/logo_h2.png",
+			"type": "select",
+			"group": "Boot Logo",
+            "contentFolders": ["content/at logos/h2"]
+		},
+
+
+        {
+			"name": "Off",
+			"tooltip": "Hitman WOA's default logo position.",
+			"image": "smf/logopos_woa.png",
+			"type": "select",
+			"group": "Logo Position"
+		},
+		{
+			"name": "On",
+			"tooltip": "Hitman 2's logo position.",
+			"image": "smf/logo_h2_custom.png",
+			"type": "select",
+			"group": "Logo Position",
+			"contentFolders": ["content/logo pos"],
+			"enabledByDefault": true
+		},
+
+
+        {
+			"name": "Off",
+			"tooltip": "Hitman WOA's default logo size.",
+			"image": "smf/logo_small.png",
+			"type": "select",
+			"group": "Logo Scale"
+		},
+		{
+			"name": "On",
+			"tooltip": "Hitman 2's logo size.",
+			"image": "smf/logo_h2_custom.png",
+			"type": "select",
+			"group": "Logo Scale",
+			"contentFolders": ["content/logo size"],
+			"enabledByDefault": true
+		},
+
+
+        {
+			"name": "Off",
+			"tooltip": "Hitman WOA's default menu background.",
+			"image": "smf/menu_base.png",
+			"type": "select",
+			"group": "Main Menu Background"
+		},
+        {
+			"name": "On",
+			"tooltip": "Hitman 2's menu background.",
+			"image": "smf/h2.png",
+			"type": "select",
+			"group": "Main Menu Background",
+			"blobsFolders": ["content/background/blobs"],
+			"enabledByDefault": true
+		},
+
+
+		{
+			"name": "Off",
+			"tooltip": "Hitman WOA's default menu music.",
+			"type": "select",
+			"group": "Menu Music (remember to ask for permission for this)"
+		},
+		{
+			"name": "On",
+			"tooltip": "Hitman 2's menu music.",
+			"type": "select",
+			"group": "Menu Music (remember to ask for permission for this)",
+			"contentFolders": ["content/music"],
+			"enabledByDefault": true
+		}
+    ]
 }
