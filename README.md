@@ -12,7 +12,7 @@ Legacy Menu Music - https://www.nexusmods.com/hitman3/mods/293
 ## What I've added/changed
 - Removed every Heritage UI customization option that isn't related to Hitman 2.
 - Changed the default red color to the pinkish one that Hitman 2 uses.
-- Added back the pause menu/inventory's background blur effect.
+- Added back the pause menu/inventory's background filter.
 
 ## Credits
 [Burn, The Witch](https://www.nexusmods.com/users/121153618), for making Heritage UI, and granting me permission to modify it.
