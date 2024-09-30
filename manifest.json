@@ -1,13 +1,13 @@
 {
-    "$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
+	"//comment": "UI Conversion 2: Electric Boogaloo",
+	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
 	"version": "1.0.0",
 	"id": "EpicGaming11195.H2UI",
 	"name": "Hitman 2 UI Conversion",
-	"description": "(Some options may need to be selected again after updates) The second and final installment in my UI Conversion series, aiming to replicate Hitman 2's UI as closely as possible.",
+	"description": "(Some options may need to be selected again after updates) The sequel to H2016 UI Conversion, aiming to replicate Hitman 2's UI as closely as possible.",
 	"authors": [
 		"EpicGaming11195",
-		"Burn the Witch",
-        "Hichkas"
+		"Burn the Witch"
 	],
 	"frameworkVersion": "2.33.12",
     "options": [
@@ -38,11 +38,27 @@
 		},
         {
 			"name": "On",
-			"tooltip": "Hitman 2's intro. (Has no sound at the moment)",
+			"tooltip": "Hitman 2's intro.",
 			"image": "smf/intro_h2.png",
 			"type": "select",
 			"group": "Intro Video",
 			"contentFolders": ["content/intro"],
+			"enabledByDefault": true
+		},
+
+
+		{
+			"name": "Default",
+			"tooltip": "Hitman WOA's default intro sound.",
+			"type": "select",
+			"group": "Intro Sound"
+		},
+		{
+			"name": "H2",
+			"tooltip": "H2's intro sound.",
+			"type": "select",
+			"group": "Intro Sound",
+			"contentFolders": ["content/intro sound"],
 			"enabledByDefault": true
 		},
         
@@ -149,13 +165,13 @@
 			"name": "Off",
 			"tooltip": "Hitman WOA's default menu music.",
 			"type": "select",
-			"group": "Menu Music (remember to ask for permission for this)"
+			"group": "Menu Music"
 		},
 		{
 			"name": "On",
 			"tooltip": "Hitman 2's menu music.",
 			"type": "select",
-			"group": "Menu Music (remember to ask for permission for this)",
+			"group": "Menu Music",
 			"contentFolders": ["content/music"],
 			"enabledByDefault": true
 		}
