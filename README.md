@@ -1,5 +1,5 @@
 # Hitman 2 UI Conversion
-The second and final installment in my UI Conversion series, aiming to replicate Hitman 2's UI as closely as possible.
+The sequel to Hitman 2016 UI Conversion, aiming to replicate Hitman 2's UI as closely as possible.
 
 ### Download it here
 [insert link here when it exists] 

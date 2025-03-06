@@ -1,0 +1,60 @@
+{
+    "id": "$.Id",
+    "controller": "contextitem",
+    "view": "menu3.basic.CategoryTile",
+    "row": -0.75,
+    "nrows": 0.5,
+    "ncols": 2,
+    "data": {
+        "title": "$.Title",
+        "header": "",
+        "icon": "$.Icon",
+        "image": "$.image"
+    },
+    "actions": {
+        "$mergeobjects": [
+            {
+                "$if $not $isnull $.ExtraActions": {
+                    "$then": "$expand $.ExtraActions"
+                }
+            },
+            {
+                "select": [
+                        {
+                            "replace-children": {
+                    "target": "headline_container",
+                    "children": [
+                        {
+                            "view": "menu3.basic.HeadlineElement",
+                            "selectable": false,
+                            "pressable": false,
+                            "data": {
+                                "header": "",
+                                "title": "$.Title",
+                                "typeicon": "$.Icon"
+                            }
+                        }
+                    ]
+                }
+                        }
+                    ]
+                },
+                {
+                    "deselect": [
+                        {
+                                                "replace-children": {
+                    "target": "headline_container",
+                    "children": [
+                        {
+                            "view": "menu3.basic.HeadlineElement",
+                            "selectable": false,
+                            "pressable": false
+                        }
+                    ]
+                }
+                        }
+                    ]
+                }
+        ]
+    }
+}
