@@ -11,6 +11,7 @@
 	],
 	"blobsFolders": ["content/base/blobs"],
 	"frameworkVersion": "2.33.23",
+	"loadAfter": ["dribbleondo.tgblr"],
 	"localisation": {
 		"english": {
 			"HUI_MENU_PAGE_DESTINATION_TAB_MISSIONS": "Contracts",
@@ -417,6 +418,7 @@
 			"type": "select",
 			"group": "Menu Theme",
 			"contentFolders": ["content/menu style"],
+			"blobsFolders": ["content/menu tiles/blobs"],
 			"enabledByDefault": true
 		},
 
@@ -658,317 +660,6 @@
 			"image": "smf/defaultnames.png",
 			"group": "Item Names",
 			"enabledByDefault": true
-		},
-		{
-			"name": "On (Heritage)",
-			"type": "select",
-			"tooltip": "HUI's attempt to make item and suit names more consistent, following a naming scheme similar to Hitman 2016.",
-			"group": "Item Names",
-			"image": "smf/heritagenames.png",
-			"localisationOverrides": {
-				"0072D1A320470342": {
-					"english": {
-						"2327460968": "Striker 'El Matador'",
-						"1032737931": "Bartoli RR",
-						"2467944817": "Bartoli 1CE",
-						"3287482919": "ICA19 Floralballer",
-						"3643036392": "Bartoli 12G Sawed-Off",
-						"3992837816": "Bartoli 12G Sawed-Off Gold ",
-						"1925912075": "Kalmer 1",
-						"2839309394": "ICA19 F/A Covert"
-					},
-					"french": {
-					},
-					"italian": {},
-					"german": {},
-					"spanish": {
-					},
-					"russian": {},
-					"chineseSimplified": {},
-					"chineseTraditional": {},
-					"japanese": {}
-				},
-				"006986A5A3F98191": {
-					"english": {
-						"291383916": "Sieger 300 Rude Ruby",
-						"585698583": "ICA19 F/A Ducky Covert",
-						"1165829667": "Bartoli 0R",
-						"4292903895": "Custom 5mm Ducky",
-						"80972231": "Custom 5mm Ghost",
-						"2495675980": "Krugermeier 2-2 Ancestral",
-						"2434870416": "ICA19 Street Art",
-						"1581638557": "Serpent 666",
-						"1451051270": "Taunton 48",
-						"3255803310": "DAK X2 Brine-Damaged",
-						"3459315680": "DAK X2 Slapdash Covert",
-						"2933223810": "DAK X2 Scrap Covert",
-						"546170036": "DAK X2 Special Covert",
-						"268002322": "HX-10 Militia",
-						"2253322208": "Raptor Covert ICA",
-						"1800261393": "Raptor Covert Rude Ruby",
-						"1221743199": "DAK Covert Black",
-						"3938717844": "DAK Covert Gold",
-						"114220078": "TAC-SMG Ornamental",
-						"1918767992": "HX-7 Street Art",
-						"230765855": "Bartoli 12H Ancestral",
-						"2191608370": "Bartoli 12G Street Art",
-						"2000387264": "Bartoli 12G Sawed-Off Makeshift",
-						"3386837480": "Bartoli 12G Sawed-Off Maximalist",
-						"3201567076": "ICA TAC 12",
-						"4275385097": "ICA TAC 12 Covert",
-						"1667375680": "ICA TAC 12 Covert White",
-						"2168467540": "ICA19 Blackballer",
-						"1152286900": "ICA19 Whiteballer",
-						"4287068859": "ICA19 Redballer",
-						"3810201275": "Shashka A33 Ancestral",
-						"1667086812": "Fusil G2 Street Art",
-						"372752044": "TAC-4 AR Ornamental",
-						"3844964668": "RS-15 Makeshift",
-						"1575404294": "Shashka A33 Beast",
-						"784179770": "Kalmer 2",
-						"3491623950": "Enram HV Ornamental",
-						"3080273024": "Bartoli Hunting Rifle Covert",
-						"3732565858": "Bartoli Hunting Rifle",
-						"2066805963": "Bartoli ICA Hunting Rifle",
-						"1998520630": "Hackl Leviathan Covert",
-						"159915413": "Hackl Leviathan Ducky Covert",
-						"3489036676": "Bartoli Ancestral Hunting Rifle",
-						"2167584959": "Bartoli Dragon Hunting Rifle",
-						"2898114775": "Bartoli Majestic Hunting Rifle",
-						"1608846863": "Druzhina 34 Makeshift",
-						"2999686978": "Sieger 300 Street Art",
-						"508273131:": "Sieger 300 Ornamental",
-						"3113978184": "Bartoli DTI",
-						"3722945924": "Bartoli 12H",
-						"3882554747": "Bartoli 12H Deluxe",
-						"2058437330": "Striker Mk III"
-		
-					},
-					"french": {
-					},
-					"italian": {},
-					"german": {},
-					"spanish": {
-					},
-					"russian": {},
-					"chineseSimplified": {},
-					"chineseTraditional": {},
-					"japanese": {}
-				},
-				"008322D98E1CFE04": {
-					"english": {
-						"1432256677": "Ancestral Knife",
-						"571095698": "Cat's Claw",
-						"2684151890": "Street Art Bat",
-						"1958976691": "Greedy Cane",
-						"378687878": "Iridescent Katana",
-						"4200240817": "Ornamental Katana",
-						"4178568037": "Majestic Sabre",
-						"4194997898": "Straitjacket Belt",
-						"1153451912": "Sedative Gum",
-						"2132802116": "Serpent's Bite",
-						"3411454055": "Roar Proximity Flash",
-						"1967478934": "Explosive Fountain Pen",
-						"3611983725": "Makeshift Katana",
-						"1596987004": "Dragon Briefcase",
-						"2359075170": "Brown Leather Briefcase",
-						"1423618173": "Emetic Guru Pen Syringe",
-						"1021829317": "Emetic Guru Grenade",
-						"1177362553": "Emetic Pen Syringe",
-						"473844920": "Sedative Proximity Mine",
-						"2060585035": "Carte Blanche Coin"
-					},
-					"french": {
-					},
-					"italian": {},
-					"german": {},
-					"spanish": {
-					},
-					"russian": {},
-					"chineseSimplified": {},
-					"chineseTraditional": {},
-					"japanese": {}
-				},
-				"001F0F3B7F11E788": {
-					"english": {
-						"3578533398": "Jarl's Sabre",
-						"2161820740": "A rusty, old pirate sabre. Owned by Jarl, Son of Hanne, first mate to the Dread Pirate 'The Black Almond.'",
-						"2944947255": "ICA Briefcase Executive",
-						"3779994366": "ICA Briefcase Executive Mk II"
-					},
-					"french": {
-					},
-					"italian": {},
-					"german": {},
-					"spanish": {
-					},
-					"russian": {},
-					"chineseSimplified": {},
-					"chineseTraditional": {},
-					"japanese": {}
-				},
-				"00288FE4ECA3C1FD": {
-					"english": {
-						"1094810605": "Druzhina 34 Arctic"
-					},
-					"french": {
-					},
-					"italian": {},
-					"german": {},
-					"spanish": {
-					},
-					"russian": {},
-					"chineseSimplified": {},
-					"chineseTraditional": {},
-					"japanese": {}
-				},
-				"0024A5A15AC9CC2F": {
-					"english": {
-						"1371055075": "Mixtape 47",
-						"2051974654": "Iconator",
-						"999525101": "Sabre",
-						"1845844159": "A cavalry sabre. Napoleonic era. Effective when used in close combat.",
-						"52776313": "Emetic Syringe",
-						"2885399022": "Emetic Antique Syringe",
-						"967425516": "Lethal Syringe",
-						"2440511867": "Antique Lethal Syringe",
-						"531878565": "Sedative Syringe"
-					},
-					"french": {
-					},
-					"italian": {},
-					"german": {},
-					"spanish": {
-					},
-					"russian": {},
-					"chineseSimplified": {},
-					"chineseTraditional": {},
-					"japanese": {}
-				},
-				"004B8C5124A49543": {
-					"english": {
-						"3944984988": "Blue Streak Suit",
-						"135933874": "Sunset Streak Suit",
-						"3199382373": "Midnight Clubbing Suit",
-						"3180102579": "Public Enemy Suit",
-						"1171393183": "Purple Streak Suit",
-						"3368934709": "Christmas Casual Suit",
-						"2874408294": "17's Signature Suit",
-						"3140229008": "Green Streak Suit",
-						"4083485844": "Black Streak Suit",
-						"1092447392": "Black & White Tuxedo",
-						"2049910903": "Black & White Tuxedo",
-						"1695519493": "Black & White Tuxedo with Gloves",
-						"1489750715": "Long Coat with Gloves",
-						"2129611827": "Long Coat",
-						"875126530": "6's Signature Coat",
-						"1635858198": "6's Signature Coat with Gloves",
-						"615312987": "Raincoat",
-						"2572931238": "Raincoat with Gloves",
-						"879295869": "White Polar Survival Suit",
-						"3362995256": "Raver Suit with Gloves",
-						"2760943898": "Lucky Ducky Suit",
-						"3191297808": "Neon Ninja Suit",
-						"630776052": "Rude Ruby Track Suit",
-						"1910239537": "Raver Suit with Bunny Mask",
-						"1667754951": "Bad Wolf Suit",
-						"2875169229": "Sandman Suit",
-						"3762946900": "Butcher Suit",
-						"2231831317": "Codename 47 Suit",
-						"1685722641": "Anthony Martinez's Suit",
-						"3223664876": "Hidden Valley Ninja Suit",
-						"1321936074": "Satu Mare Straitjacket",
-						"2803096113": "Rapacious Suit",
-						"4009319363": "Narcissus Suit",
-						"720259666": "Lotophage Suit",
-						"243279818": "Scarlet Suit",
-						"632560077": "Profligacy Suit",
-						"4188750001": "Odium Suit",
-						"2202462424": "Temper Suit",
-						"96317463": "Black Bruiser Suit",
-						"877102628": "Golden Streetwear Suit",
-						"1695305353": "Ancestral Huntsman Suit",
-						"2168599423": "Graffiti Hoody Suit",
-						"2732261783": "Scrap Poncho Suit",
-						"3617998863": "Master Freelancer Suit",
-						"60276344": "Beldingford Huntsman Suit",
-						"3750001361": "Red Dragon Suit",
-						"2887221963": "Absolution Sniping Suit",
-						"671377108": "Desert Survival Suit",
-						"1542410141": "Subject 47 Suit",
-						"1181997343": "Subject 47 Suit"
-					},
-					"french": {
-					},
-					"italian": {},
-					"german": {},
-					"spanish": {
-					},
-					"russian": {},
-					"chineseSimplified": {},
-					"chineseTraditional": {},
-					"japanese": {}
-				},
-				"009F430D046716BE": {
-					"english": {
-						"1507656433": "Undying Suit",
-						"3885074855": "Tropical Casual Suit",
-						"1386335940": "All-Black Suit",
-						"3619146115": "Trenchcoat with Gloves",
-						"1188663957": "Trenchcoat",
-						"3591200885": "Black Polar Survival Suit",
-						"2052724919": "Casual Undercover Suit",
-						"2347383834": "Tropical Business Suit",
-						"3045378807": "Arkian Tuxedo",
-						"3236983443": "Pirate Suit",
-						"369364440": "Sandman Suit with Jack-O-Lantern Mask",
-						"3876710900": "Cashmerian Suit",
-						"836824045": "Suburban Suit with Gloves"
-					},
-					"french": {
-					},
-					"italian": {},
-					"german": {},
-					"spanish": {
-					},
-					"russian": {},
-					"chineseSimplified": {},
-					"chineseTraditional": {},
-					"japanese": {}
-				},
-				"00233D8E3065C531": {
-					"english": {
-						"1199489516": "Gauze Suit"
-					},
-					"french": {
-					},
-					"italian": {},
-					"german": {},
-					"spanish": {
-					},
-					"russian": {},
-					"chineseSimplified": {},
-					"chineseTraditional": {},
-					"japanese": {}
-				},
-				"00985A1100E5EDDC": {
-					"english": {
-						"1574577192": "Santa Suit",
-						"3309453482": "Terminus Suit"
-					},
-					"french": {
-					},
-					"italian": {},
-					"german": {},
-					"spanish": {
-					},
-					"russian": {},
-					"chineseSimplified": {},
-					"chineseTraditional": {},
-					"japanese": {}
-				}
-			},
-			"contentFolders": ["content/localization"]
 		},
 		{
 			"name": "On (Edited)",
@@ -1286,6 +977,318 @@
 				}
 			}
 		},
+		{
+			"name": "On (Heritage)",
+			"type": "select",
+			"tooltip": "HUI's attempt to make item and suit names more consistent, following a naming scheme similar to Hitman 2016.",
+			"group": "Item Names",
+			"image": "smf/heritagenames.png",
+			"localisationOverrides": {
+				"0072D1A320470342": {
+					"english": {
+						"2327460968": "Striker 'El Matador'",
+						"1032737931": "Bartoli RR",
+						"2467944817": "Bartoli 1CE",
+						"3287482919": "ICA19 Floralballer",
+						"3643036392": "Bartoli 12G Sawed-Off",
+						"3992837816": "Bartoli 12G Sawed-Off Gold ",
+						"1925912075": "Kalmer 1",
+						"2839309394": "ICA19 F/A Covert"
+					},
+					"french": {
+					},
+					"italian": {},
+					"german": {},
+					"spanish": {
+					},
+					"russian": {},
+					"chineseSimplified": {},
+					"chineseTraditional": {},
+					"japanese": {}
+				},
+				"006986A5A3F98191": {
+					"english": {
+						"291383916": "Sieger 300 Rude Ruby",
+						"585698583": "ICA19 F/A Ducky Covert",
+						"1165829667": "Bartoli 0R",
+						"4292903895": "Custom 5mm Ducky",
+						"80972231": "Custom 5mm Ghost",
+						"2495675980": "Krugermeier 2-2 Ancestral",
+						"2434870416": "ICA19 Street Art",
+						"1581638557": "Serpent 666",
+						"1451051270": "Taunton 48",
+						"3255803310": "DAK X2 Brine-Damaged",
+						"3459315680": "DAK X2 Slapdash Covert",
+						"2933223810": "DAK X2 Scrap Covert",
+						"546170036": "DAK X2 Special Covert",
+						"268002322": "HX-10 Militia",
+						"2253322208": "Raptor Covert ICA",
+						"1800261393": "Raptor Covert Rude Ruby",
+						"1221743199": "DAK Covert Black",
+						"3938717844": "DAK Covert Gold",
+						"114220078": "TAC-SMG Ornamental",
+						"1918767992": "HX-7 Street Art",
+						"230765855": "Bartoli 12H Ancestral",
+						"2191608370": "Bartoli 12G Street Art",
+						"2000387264": "Bartoli 12G Sawed-Off Makeshift",
+						"3386837480": "Bartoli 12G Sawed-Off Maximalist",
+						"3201567076": "ICA TAC 12",
+						"4275385097": "ICA TAC 12 Covert",
+						"1667375680": "ICA TAC 12 Covert White",
+						"2168467540": "ICA19 Blackballer",
+						"1152286900": "ICA19 Whiteballer",
+						"4287068859": "ICA19 Redballer",
+						"3810201275": "Shashka A33 Ancestral",
+						"1667086812": "Fusil G2 Street Art",
+						"372752044": "TAC-4 AR Ornamental",
+						"3844964668": "RS-15 Makeshift",
+						"1575404294": "Shashka A33 Beast",
+						"784179770": "Kalmer 2",
+						"3491623950": "Enram HV Ornamental",
+						"3080273024": "Bartoli Hunting Rifle Covert",
+						"3732565858": "Bartoli Hunting Rifle",
+						"2066805963": "Bartoli ICA Hunting Rifle",
+						"1998520630": "Hackl Leviathan Covert",
+						"159915413": "Hackl Leviathan Ducky Covert",
+						"3489036676": "Bartoli Ancestral Hunting Rifle",
+						"2167584959": "Bartoli Dragon Hunting Rifle",
+						"2898114775": "Bartoli Majestic Hunting Rifle",
+						"1608846863": "Druzhina 34 Makeshift",
+						"2999686978": "Sieger 300 Street Art",
+						"508273131:": "Sieger 300 Ornamental",
+						"3113978184": "Bartoli DTI",
+						"3722945924": "Bartoli 12H",
+						"3882554747": "Bartoli 12H Deluxe",
+						"2058437330": "Striker Mk III"
+		
+					},
+					"french": {
+					},
+					"italian": {},
+					"german": {},
+					"spanish": {
+					},
+					"russian": {},
+					"chineseSimplified": {},
+					"chineseTraditional": {},
+					"japanese": {}
+				},
+				"008322D98E1CFE04": {
+					"english": {
+						"1432256677": "Ancestral Knife",
+						"571095698": "Cat's Claw",
+						"2684151890": "Street Art Bat",
+						"1958976691": "Greedy Cane",
+						"378687878": "Iridescent Katana",
+						"4200240817": "Ornamental Katana",
+						"4178568037": "Majestic Sabre",
+						"4194997898": "Straitjacket Belt",
+						"1153451912": "Sedative Gum",
+						"2132802116": "Serpent's Bite",
+						"3411454055": "Roar Proximity Flash",
+						"1967478934": "Explosive Fountain Pen",
+						"3611983725": "Makeshift Katana",
+						"1596987004": "Dragon Briefcase",
+						"2359075170": "Brown Leather Briefcase",
+						"1423618173": "Emetic Guru Pen Syringe",
+						"1021829317": "Emetic Guru Grenade",
+						"1177362553": "Emetic Pen Syringe",
+						"473844920": "Sedative Proximity Mine",
+						"2060585035": "Carte Blanche Coin"
+					},
+					"french": {
+					},
+					"italian": {},
+					"german": {},
+					"spanish": {
+					},
+					"russian": {},
+					"chineseSimplified": {},
+					"chineseTraditional": {},
+					"japanese": {}
+				},
+				"001F0F3B7F11E788": {
+					"english": {
+						"3578533398": "Jarl's Sabre",
+						"2161820740": "A rusty, old pirate sabre. Owned by Jarl, Son of Hanne, first mate to the Dread Pirate 'The Black Almond.'",
+						"2944947255": "ICA Briefcase Executive",
+						"3779994366": "ICA Briefcase Executive Mk II"
+					},
+					"french": {
+					},
+					"italian": {},
+					"german": {},
+					"spanish": {
+					},
+					"russian": {},
+					"chineseSimplified": {},
+					"chineseTraditional": {},
+					"japanese": {}
+				},
+				"00288FE4ECA3C1FD": {
+					"english": {
+						"1094810605": "Druzhina 34 Arctic"
+					},
+					"french": {
+					},
+					"italian": {},
+					"german": {},
+					"spanish": {
+					},
+					"russian": {},
+					"chineseSimplified": {},
+					"chineseTraditional": {},
+					"japanese": {}
+				},
+				"0024A5A15AC9CC2F": {
+					"english": {
+						"1371055075": "Mixtape 47",
+						"2051974654": "Iconator",
+						"999525101": "Sabre",
+						"1845844159": "A cavalry sabre. Napoleonic era. Effective when used in close combat.",
+						"52776313": "Emetic Syringe",
+						"2885399022": "Emetic Antique Syringe",
+						"967425516": "Lethal Syringe",
+						"2440511867": "Antique Lethal Syringe",
+						"531878565": "Sedative Syringe"
+					},
+					"french": {
+					},
+					"italian": {},
+					"german": {},
+					"spanish": {
+					},
+					"russian": {},
+					"chineseSimplified": {},
+					"chineseTraditional": {},
+					"japanese": {}
+				},
+				"004B8C5124A49543": {
+					"english": {
+						"3944984988": "Blue Streak Suit",
+						"135933874": "Sunset Streak Suit",
+						"3199382373": "Midnight Clubbing Suit",
+						"3180102579": "Public Enemy Suit",
+						"1171393183": "Purple Streak Suit",
+						"3368934709": "Christmas Casual Suit",
+						"2874408294": "17's Signature Suit",
+						"3140229008": "Green Streak Suit",
+						"4083485844": "Black Streak Suit",
+						"1092447392": "Black & White Tuxedo",
+						"2049910903": "Black & White Tuxedo",
+						"1695519493": "Black & White Tuxedo with Gloves",
+						"1489750715": "Long Coat with Gloves",
+						"2129611827": "Long Coat",
+						"875126530": "6's Signature Coat",
+						"1635858198": "6's Signature Coat with Gloves",
+						"615312987": "Raincoat",
+						"2572931238": "Raincoat with Gloves",
+						"879295869": "White Polar Survival Suit",
+						"3362995256": "Raver Suit with Gloves",
+						"2760943898": "Lucky Ducky Suit",
+						"3191297808": "Neon Ninja Suit",
+						"630776052": "Rude Ruby Track Suit",
+						"1910239537": "Raver Suit with Bunny Mask",
+						"1667754951": "Bad Wolf Suit",
+						"2875169229": "Sandman Suit",
+						"3762946900": "Butcher Suit",
+						"2231831317": "Codename 47 Suit",
+						"1685722641": "Anthony Martinez's Suit",
+						"3223664876": "Hidden Valley Ninja Suit",
+						"1321936074": "Satu Mare Straitjacket",
+						"2803096113": "Rapacious Suit",
+						"4009319363": "Narcissus Suit",
+						"720259666": "Lotophage Suit",
+						"243279818": "Scarlet Suit",
+						"632560077": "Profligacy Suit",
+						"4188750001": "Odium Suit",
+						"2202462424": "Temper Suit",
+						"96317463": "Black Bruiser Suit",
+						"877102628": "Golden Streetwear Suit",
+						"1695305353": "Ancestral Huntsman Suit",
+						"2168599423": "Graffiti Hoody Suit",
+						"2732261783": "Scrap Poncho Suit",
+						"3617998863": "Master Freelancer Suit",
+						"60276344": "Beldingford Huntsman Suit",
+						"3750001361": "Red Dragon Suit",
+						"2887221963": "Absolution Sniping Suit",
+						"671377108": "Desert Survival Suit",
+						"1542410141": "Subject 47 Suit",
+						"1181997343": "Subject 47 Suit"
+					},
+					"french": {
+					},
+					"italian": {},
+					"german": {},
+					"spanish": {
+					},
+					"russian": {},
+					"chineseSimplified": {},
+					"chineseTraditional": {},
+					"japanese": {}
+				},
+				"009F430D046716BE": {
+					"english": {
+						"1507656433": "Undying Suit",
+						"3885074855": "Tropical Casual Suit",
+						"1386335940": "All-Black Suit",
+						"3619146115": "Trenchcoat with Gloves",
+						"1188663957": "Trenchcoat",
+						"3591200885": "Black Polar Survival Suit",
+						"2052724919": "Casual Undercover Suit",
+						"2347383834": "Tropical Business Suit",
+						"3045378807": "Arkian Tuxedo",
+						"3236983443": "Pirate Suit",
+						"369364440": "Sandman Suit with Jack-O-Lantern Mask",
+						"3876710900": "Cashmerian Suit",
+						"836824045": "Suburban Suit with Gloves"
+					},
+					"french": {
+					},
+					"italian": {},
+					"german": {},
+					"spanish": {
+					},
+					"russian": {},
+					"chineseSimplified": {},
+					"chineseTraditional": {},
+					"japanese": {}
+				},
+				"00233D8E3065C531": {
+					"english": {
+						"1199489516": "Gauze Suit"
+					},
+					"french": {
+					},
+					"italian": {},
+					"german": {},
+					"spanish": {
+					},
+					"russian": {},
+					"chineseSimplified": {},
+					"chineseTraditional": {},
+					"japanese": {}
+				},
+				"00985A1100E5EDDC": {
+					"english": {
+						"1574577192": "Santa Suit",
+						"3309453482": "Terminus Suit"
+					},
+					"french": {
+					},
+					"italian": {},
+					"german": {},
+					"spanish": {
+					},
+					"russian": {},
+					"chineseSimplified": {},
+					"chineseTraditional": {},
+					"japanese": {}
+				}
+			},
+			"contentFolders": ["content/localization"]
+		},
+		
 
 
 		{
