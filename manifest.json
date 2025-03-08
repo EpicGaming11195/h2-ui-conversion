@@ -5,6 +5,7 @@
 	"id": "EpicGaming11195.H2UI",
 	"name": "Hitman 2 UI Conversion",
 	"description": "A complete reskin of the UI and HUD, aiming to replicate Hitman 2's UI as closely as possible. Also features some components of Heritage UI.",
+	"updateCheck": "https://raw.githubusercontent.com/EpicGaming11195/epics-h3-mod-updaters/main/h2ui-updater.json",
 	"authors": [
 		"EpicGaming11195",
 		"Burn the Witch"
@@ -418,7 +419,6 @@
 			"type": "select",
 			"group": "Menu Theme",
 			"contentFolders": ["content/menu style"],
-			"blobsFolders": ["content/menu tiles/blobs"],
 			"enabledByDefault": true
 		},
 
@@ -610,11 +610,45 @@
 		},
 		{
 			"name": "On",
-			"tooltip": "Hitman 2's career menu thumbnails.",
+			"tooltip": "Hitman 2's career menu thumbnails. Only intended to be used when the \"Career Menu\" option is also enabled.",
 			"image": "smf/career_old_icons_h2.png",
 			"type": "select",
 			"group": "Career Menu Thumbnails",
-			"contentFolders": ["content/career menu pictures/h2"],
+			"blobsFolders": ["content/career menu pictures/blobs"],
+			"enabledByDefault": true
+		},
+
+
+		{
+			"name": "Off",
+			"tooltip": "Hitman WOA's default contracts menu thumbnails.",
+			"image": "smf/contracts_icons_woa.png",
+			"type": "select",
+			"group": "Contracts Menu Thumbnails"
+		},
+		{
+			"name": "On",
+			"tooltip": "Hitman 2's contracts menu thumbnails.",
+			"image": "smf/contracts_old_icons.png",
+			"type": "select",
+			"group": "Contracts Menu Thumbnails",
+			"blobsFolders": ["content/contracts menu pictures/blobs"],
+			"enabledByDefault": true
+		},
+
+
+		{
+			"name": "Off",
+			"type": "select",
+			"group": "Misc. Tile Thumbnails"
+		},
+        {
+			"name": "On",
+			"tooltip": "Replaces some miscellaneous menu tile thumbnails with their Hitman 2 counterparts.",
+			"image": "smf/h2_menu_tiles.png",
+			"type": "select",
+			"group": "Misc. Tile Thumbnails",
+			"blobsFolders": ["content/menu tiles/blobs"],
 			"enabledByDefault": true
 		},
 
