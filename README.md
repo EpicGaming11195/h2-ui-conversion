@@ -10,7 +10,7 @@ H2016 UI will likely be brought up to the same standards eventually, but I can't
 Current accuracy to Hitman 2: Almost perfect
 
 ### Download it here
-[insert link here when it exists] 
+https://www.nexusmods.com/hitman3/mods/970
 
 ### Links to the original mods
 Heritage UI - https://www.nexusmods.com/hitman3/mods/323
